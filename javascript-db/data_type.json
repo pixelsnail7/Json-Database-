@@ -1,0 +1,133 @@
+{
+    "data": {
+        "means": "Data is information that can be interpreted and used by computers. It is a collection of facts, such as numbers, words, measurements, observations or descriptions of things.",
+        "use": [
+            "Used to process tasks like sending emails, performing calculations, etc.",
+            "Dictates the instructions and actions a computer takes."
+        ],
+        "computers_understand": [
+            "Binary code - consisting only of 1s and 0s",
+            "Character-based code - letters, numbers, and symbols recognizable by humans"
+        ]
+    },
+
+    "data_types": {
+        "means": "A data type is a classification of data that specifies how the programmer intends to use the data.",
+        "it_defines": [
+            "The set of possible values a variable can hold.",
+            "The operations that can be performed on that data",
+            "How the data is stored and manipulated in computer memory"
+        ],
+        "key_points": [
+            "Data types provide a way to categorize and organize data in programming languages.",
+            "They determine how much memory is allocated for a variable and how it can be used",
+            "Different programming languages support various data types, but most include basic types like integers, floats, strings, and booleans"
+        ],
+        "common_data_types": [
+            "Integer: Represents whole numbers, such as 1, 10, or -5.",
+            "Float: Represents decimal numbers, such as 3.14 or -2.5.",
+            "String: Represents sequences of characters, such as 'Hello, World!' or '12345'.",
+            "Boolean: Represents true or false values, commonly used in conditional statements."
+        ],
+
+        "data_types_list": [
+            "Primitive Data Types",
+            "Composite Data Types",
+            "User-Defined Data Types",
+            "Date and Time Data Types"
+        ],
+
+        "primitive_data_types": {
+            "means": "A primitive data type specifies the size and type of variable values, and it has no additional methods.",
+            "types": [
+                "Integer: Represents whole numbers, such as 1, 10, or -5.",
+                "Float: Represents decimal numbers, such as 3.14 or -2.5.",
+                "Boolean: Represents true or false values, commonly used in conditional statements.",
+                "Character: Represents a single character, such as 'a', 'B', or '$'.",
+                "Void: No data value (used for functions that don't return anything)"
+            ]
+        },
+
+
+        "composite_data_types": {
+            "means": "Composite data types are data types that contain multiple values, as opposed to scalar data types which only contain a single value.",
+            "types": [
+                "String: Represents sequences of characters, such as 'Hello, World!' or '12345'.",
+                "Array: A collection of elements of the same data type, accessed using an index.",
+                "Struct: A collection of elements of different data types, accessed using a named member.",
+                "Union: A collection of elements of different data types, accessed using a named member.",
+                "Pointer: A data type that stores the memory address of another variable.",
+                "Function: A data type that represents a function or procedure."
+            ]
+        },
+
+        "user_defined_data_types": {
+            "means": "User-defined data types are data types that are defined by the programmer, as opposed to built-in data types that are defined by the programming language.",
+            "types": [
+                "Enum: Fixed sets of constants, e.g. days of the week",
+                "Structure: Collections of different data types grouped together",
+                "Union: Groups of data objects that can have varying data types"
+            ]
+        },
+
+        "date_and_time_data_types": [
+            "Date: Representing dates in formats like YYYY-MM-DD",
+            "Time: Representing times in formats like HH:MM:SS ",
+            "Datetime: Combining date and tim"
+        ],
+
+        "importance": [
+            "Provide type safety - preventing errors caused by incompatible data operations",
+            "Allow compilers to optimize code and allocate memory efficiently",
+            "Enable programmers to write clear, readable code by specifying expected data formats",
+            "Type safety allows compilers to catch type-related errors at compile-time, before the program is even executed",
+            "This prevents runtime errors caused by attempting to perform operations on incompatible data types",
+            "Type safety helps prevent memory-related errors like buffer overflows and wild pointers "
+        ],
+        
+        "summary": {
+            "text": "Type safety acts as a safeguard against a wide range of programming errors by:",
+            "list": [
+                "Catching type mismatches at compile-time",
+                "Preventing memory-related errors",
+                "Ensuring data integrity",
+                "Improving code readability and maintainability"
+            ]
+        }
+    },
+
+    "js_data_types": {
+        "text": "JavaScript has 8 Datatypes",
+        "types": [
+            "String",
+            "Number",
+            "Bigint",
+            "Boolean",
+            "Undefined",
+            "Null",
+            "Symbol",
+            "Object"
+        ],
+
+        "string": "String is a sequence of characters that is used to represent text.",
+        "number": "Number is a numeric data type in JavaScript.",
+        "bigint": "BigInt is a numeric data type that can represent integers in the large range that is not possible with the Number data type.",
+        "boolean": "Boolean represents a logical entity and can have two values: true or false.",
+        "undefined": "Undefined is a primitive value automatically assigned to variables that have just been declared or to formal arguments for which there are no actual arguments.",
+        "null": "Null is a primitive value that represents the null, empty, or non-existent reference.",
+        "symbol": "Symbol is a primitive data type of the JavaScript language.",
+        "object": "Object is a non-primitive data type in JavaScript.",
+
+        "objects_types": [
+            "objects",
+            "arrays",
+            "functions",
+            "dates",
+            "regular expressions",
+            "maps",
+            "sets",
+            "promises",
+            "errors"
+        ]
+    }
+}

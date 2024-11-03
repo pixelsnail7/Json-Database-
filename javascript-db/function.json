@@ -1,0 +1,38 @@
+{
+    "function": {
+        "means": "Functions are blocks of reusable and organised code that usually perform a single, related action. They are a crucial part of programming because they save you a lot of time and make your code cleaner.",
+        "detail": "Functions in Programming is a block of code that encapsulates a specific task or related group of tasks. Functions are defined by a name, may have parameters and may return a value. The main idea behind functions is to take a large program, break it into smaller, more manageable pieces (or functions), each of which accomplishes a specific task."
+    },
+
+    "js_functions": {
+        "detail": "A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses (). Function names can contain letters, digits, underscores, and dollar signs (same rules as variables). The code to be executed, by the function, is placed inside curly brackets: {}",
+        "parameters": "Parameters are variables that are used to pass data into a function. They are defined in the function definition and are enclosed in parentheses. Parameters allow you to pass data into a function and use it within the function's code. Function parameters are listed inside the parentheses () in the function definition. Function arguments are the values received by the function when it is invoked. Inside the function, the arguments (the parameters) behave as local variables.",
+        "invoked": "Functions can be invoked (called) using their name followed by parentheses (). When a function is invoked, the code inside the function is executed. Functions often compute a return value. The return value is 'returned' back to the 'caller'",
+        "variable": "Variables declared within a JavaScript function, become LOCAL to the function. Local variables can only be accessed from within the function. Since local variables are only recognized inside their functions, variables with the same name can be used in different functions. Local variables are created when a function starts, and deleted when the function is completed.",
+        "note": "Local variables are created when a function starts, and deleted when the function is completed.",
+
+        "es6_function": "ES6 introduced the Arrow functions in JavaScript which offer a more concise and readable way to write function expressions. They use the => (arrow) syntax, which not only reduces boilerplate but also binds this lexically, making them particularly useful in certain scenarios like handling callbacks or working within objects.",
+        "arrow": {
+            "means": "An arrow function is essentially an anonymous function with a shorter syntax. They are often assigned to variables, making them reusable. Arrow functions are also known as lambda functions in some other programming languages.",
+            "parameters": [
+                "An arrow function without parameters is defined using empty parentheses (). This is useful when you need a function that doesn’t require any arguments.",
+                "If your arrow function has a single parameter, you can omit the parentheses around it.",
+                "Arrow functions with multiple parameters, like **(param1, param2) => { }**, simplify writing concise function expressions in JavaScript, useful for functions requiring more than one argument.",
+                "Arrow functions support default parameters, allowing predefined values if no argument is passed, making JavaScript function definitions more flexible and concise."
+            ], 
+            "advantages": [
+                "**Concise Syntax**: Arrow functions reduce the amount of code needed for function expressions.",
+                "**Lexical this Binding**: Arrow functions automatically bind this to the surrounding context, eliminating common issues when dealing with callbacks.",
+                "**Improved Readability**: For shorter functions, arrow syntax can make your code more readable."
+            ],
+            "disadvantages": [
+                "**No prototype Property**: Arrow functions do not have the prototype property, so they cannot be used as constructors.",
+                "**Cannot be Used with new**: Since they lack a prototype, they cannot be used with the new keyword to create instances.",
+                "**Cannot be Generators**: Arrow functions cannot be used as generator functions (function*) because they do not support the yield keyword.",
+                "**Anonymous Nature**: Debugging can be harder because arrow functions are anonymous by default.",
+                "**No Own this, arguments, super, or new.target**: Arrow functions do not have their own bindings for these properties, which can limit their use in some cases."
+            ],
+            "note": "Use Arrow Functions for concise anonymous functions, especially for short callbacks or when this should lexically bind to the surrounding scope."
+        }
+    }
+}
